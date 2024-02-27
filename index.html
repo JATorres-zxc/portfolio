@@ -84,13 +84,14 @@
                     student at UP Cebu, eager to
                     explore the world of web dev.
                 </h1>
+                
             </div>
-
             <div class="intro-scroll">
                 <a href="#about" class="intro-scroll-link smoothscroll">
-                    Scroll For More
+                    Scroll For More. <span style="color: red;">KINDLY REFRESH THE PAGE IF ANY ISSUES ARISE. THANKS.</span>
                 </a>
             </div>
+            
 
             <div class="intro-grid"></div>
             <!-- <div class="intro-pic"></div> -->
@@ -243,7 +244,7 @@
                         <div class="timeline__block">
                             <div class="timeline__bullet"></div>
                             <div class="timeline__header">
-                                <p class="timeline__timeframe">NEVER</p>
+                                <p class="timeline__timeframe"></p>
                                 <h3 class="item-title">No Experience</h3>
                                 <h5>Applying for internship</h5>
                             </div>
@@ -252,6 +253,39 @@
                                     As someone with no prior experience in the development industry, I am eager to embark on an internship journey to deepen my understanding and expertise in this field. I recognize the value of learning alongside seasoned professionals and believe that any opportunity to do so would be invaluable. My primary motivation is to absorb as much knowledge as possible about the industry, regardless of the compensation or other perks involved. I am driven by a genuine passion for learning and growing within this dynamic and innovative sector.</p>
                             </div>
                         </div>
+                        <div class="timeline__block">
+                            <div class="timeline__bullet"></div>
+                            <div class="timeline__header">
+                                <p class="timeline__timeframe"></p>
+                                <h3 class="item-title">Skills</h3>
+                                <h5>Used Languages and Tools</h5>
+                            </div>
+                            <div class="timeline__desc">
+                                <table>
+                                    <tr>
+                                        <td><img src="images/portfolio/html-removebg-preview.png" alt="HTML Logo"></td>
+                                        <td><img src="images/portfolio/css-removebg-preview.png" alt="CSS Logo"></td>
+                                        <td><img src="images/portfolio/js-removebg-preview.png" alt="JavaScript Logo"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src="images/portfolio/c++-removebg-preview.png" alt="C++ Logo"></td>
+                                        <td><img src="images/portfolio/python-removebg-preview.png" alt="Python Logo"></td>
+                                        <td><img src="images/portfolio/react-removebg-preview.png" alt="React Logo"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src="images/portfolio/vue-removebg-preview.png" alt="Vue.js Logo"></td>
+                                        <td><img src="images/portfolio/mysql-removebg-preview.png" alt="MySQL Logo"></td>
+                                        <td><img src="images/portfolio/vscode-removebg-preview.png" alt="VSCode Logo"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src="images/portfolio/r-removebg-preview.png" alt="R Studio Logo"></td>
+                                        <td><img src="images/portfolio/postman-removebg-preview.png" alt="Postman Logo"></td>
+                                        <td></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        
 
 
                     </div>
@@ -388,7 +422,7 @@
             <div class="column large-full">
                 <h2 class="section-heading section-heading--centerbottom">Projects</h2>
                 <p class="section-desc">
-                    Here are three of my projects I have done lately. Some are still in progress but feel free to 
+                    Here are three of my projects I have done lately from learning web dev in YouTube. Some are still in progress but feel free to 
                     check them out.
                 </p>
             </div>
@@ -403,27 +437,23 @@
                     <div class="item-folio">
                         <div class="item-folio__thumb">
                             <a href="images/notess.png" class="thumb-link" title="Note List" data-size="1050x700">
-                                <video width="640" height="360" controls muted>
-                                    <source src="videos/react.mp4" type="video/mp4">
-                                
-                                </video>
+                                <img src="images/notess.png" 
+                                    srcset="images/notess.png 1x, images/notess.png 2x" alt="">
                             </a>    
-                            <!-- <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link" target="_blank"></a> -->
                         </div>
-                        
     
                         <div class="item-folio__text">
                             <h4 class="item-folio__title">
-                                Note List
+                                Note Listprj
                             </h4>
                             <p class="item-folio__cat">
-                                User auth in progress in order to be deployed
+                                Created using <strong>React and Javascript</strong> for frontend and <strong>Python djangorestframework</strong> for backend with <strong>Mysql</strong> as Database. Equiped with fully functioning features as normal list app with User Auth(in progress - which is why I've not yet deployed it). Run through <a href="https://drive.google.com/file/d/1krCxf1JZVvtPTwbXTbowzV0vPltzzBZj/view?usp=sharing" target="_blank">video</a> here.
                             </p>
                         </div>
     
-                        <!-- <div class="item-folio__caption">
-                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                        </div> -->
+                        <div class="item-folio__caption">
+                            <p>Created using React and Javascript for frontend and Python djangorestframework for backend with Mysql as Database. Equiped with fully functioning features as normal list app with User Auth(in progress - which is why I've not yet deployed it).</p>
+                        </div>
                     </div>
                 </div> <!-- end masonry__brick -->
     
@@ -438,10 +468,10 @@
                         </div>
                         <div class="item-folio__text">
                             <h4 class="item-folio__title">
-                                Expense Tracker
+                                Expense Trackerprj
                             </h4>
                             <p class="item-folio__cat">
-                                Deployed but still in needs user auth
+                                Deployed but still needs User auth. Created when I tried to learn <strong>Vue 3 + compositional API.</strong> Equipped with fully functioning features of common expense tracker app.
                             </p>
                         </div>
                         <!-- <div class="item-folio__caption">
@@ -452,29 +482,28 @@
 
                 <div class="masonry__brick" data-aos="fade-up">
                     <div class="item-folio">
-                            
                         <div class="item-folio__thumb">
                             <a href="images/eshop.png" class="thumb-link" title="Note List" data-size="1050x700">
-                                <video width="640" height="360" controls muted>
-                                    <source src="videos/eshop.mp4" type="video/mp4">
-                                
-                                </video>
+                                <img src="images/eshop.png" 
+                                    srcset="images/eshop.png 1x, images/eshop.png 2x" alt="">
                             </a>    
-                            <!-- <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link" target="_blank"></a> -->
                         </div>
+    
                         <div class="item-folio__text">
                             <h4 class="item-folio__title">
-                                Eshopprj
+                                Eshoprj
                             </h4>
                             <p class="item-folio__cat">
-                                Not nearly finished, but I simply want to include this to showcase it.
+                                Not nearly finished, but I simply want to include this to showcase it. Created using <strong>Python</strong> as backend and <STRONG>HTML CSS</STRONG> as frontend. Equipped with functionality as common e-commerce sites but still needs some improvement.
                             </p>
                         </div>
-                        <!-- <div class="item-folio__caption">
-                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                        </div> -->
+    
+                        <div class="item-folio__caption">
+                            <p>Created using React and Javascript for frontend and Python djangorestframework for backend with Mysql as Database. Equiped with fully functioning features as normal list app with User Auth(in progress - which is why I've not yet deployed it).</p>
+                        </div>
                     </div>
                 </div> <!-- end masonry__brick -->
+
 
                 <!-- <div class="masonry__brick" data-aos="fade-up">
                     <div class="item-folio">
